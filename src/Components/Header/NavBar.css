@@ -1,0 +1,57 @@
+.ImageContainer{
+    padding-left:calc(6% + 20px);
+    width:50%
+}
+
+.ComponentContainer{
+    padding-right:6%;
+    width:50%;
+    display:grid;
+    grid-template-columns:25% 25% 25% 25%;
+}
+
+
+.DrawerComponent{
+   display: none;
+}
+
+
+
+
+@media screen and (max-width:900px){
+    .ImageContainer{
+        
+        width:90%;
+        
+    }
+    
+    
+    .ComponentContainer{
+        
+        display: none;
+      
+    }
+
+     .DrawerComponent{
+        width: 10%;
+        display: unset;
+        margin:auto
+     }
+    
+
+
+}
+
+@media screen and (max-with:700px){
+    .ImageContainer{
+        
+        width:10%
+    }
+    
+    
+    .ComponentContainer{
+        
+        width:90%;
+        
+    }
+}
